@@ -145,7 +145,25 @@
         </div>
 
         <div class="col-lg-2">
-
+          <h3>Visit Us</h3>
+          <p>HRS: Bay Area is located at 148 Broadway, Richmond, CA 94804</p>
+          <div id="map" style="width:100%;height:400px;"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: 37.932909, lng: -122.345439};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6RAPrWLiWWLLAypzULEFslu_1s73JpkI&callback=initMap">
+          </script>
         </div>
       </div>
 
