@@ -1,4 +1,9 @@
 body {
   background: #a5d2df; }
 
+.photoNav {
+  margin-bottom: 5px; }
+  .photoNav li {
+    border: 1px solid black; }
+
 /*# sourceMappingURL=style.css.map */
