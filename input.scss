@@ -13,14 +13,14 @@ body {
 }
 
 .topNav {
-  
+  background: rgba(93, 117, 124, .5);
 }
 
 .photoNav {
   margin-bottom: 5px;
   li {
     @include button;
-    .dropdown-menu{
+    .dropdown-menu {
       @include button;
     }
   }

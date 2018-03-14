@@ -1,6 +1,9 @@
 body {
   background: #a5d2df; }
 
+.topNav {
+  background: rgba(93, 117, 124, 0.5); }
+
 .photoNav {
   margin-bottom: 5px; }
   .photoNav li {
