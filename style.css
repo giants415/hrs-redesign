@@ -3,6 +3,8 @@ body {
 
 .topNav {
   background: rgba(93, 117, 124, 0.5); }
+  .topNav .nav {
+    margin-right: 50px; }
   .topNav a {
     text-transform: uppercase;
     font-weight: bold;
